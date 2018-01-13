@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>写福游戏</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+ 	 <meta name="apple-mobile-web-app-capable" content="yes">
+ 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body onselectstart="return false">
+	<div class="write_fu">
+		<div id="signature-pad" class="signature-pad">
+    		<div class="signature-pad--body">
+				<!-- 祈福左侧 -->
+				<div class="write_fu_left">
+					<div class="xinchunqifu"></div>
+					<div class="qifu_shuoming">
+						<p>请先选择一张背景后，</p>
+						<p>在右侧纸上写下一个<span>【福】</span>字，</p>
+						<p>调整位置大小后，点击<span>【祈福】</span>按钮</p>
+					</div>
+					<!-- 祈福背景选择 -->
+					<div class="qifu_bg">
+						<ul>
+							<li class="active" data-action=change-red><img src="images/FU_back1.png" alt=""></li>
+							<li data-action=change-yellow><img src="images/FU_back2.png" alt=""></li>
+							<li data-action=change-blue><img src="images/FU_back3.png" alt=""></li>
+						</ul>
+					</div>
+					<div class="qifu_btn" data-action=save-png></div>
+				</div>
+				<!-- 祈福右侧 -->
+				<div class="write_fu_right">
+					<div class="taiguhui"></div>
+					<div class="huaban">
+						<div class="canvas">
+						<canvas>
+						Fallback content, in case the browser does not support Canvas.
+						</canvas>
+						</div>
+					</div>
+					
+					<div class="write_fu_content">
+						<div class="write_fu_box write_fu_box1">
+							<img src="images/paper1.png" alt="">
+						</div>
+						<div class="write_fu_box write_fu_box2">
+							<img src="images/paper2.png" alt="">
+						</div>
+						<div class="write_fu_box write_fu_box3">
+							<img src="images/paper3.png" alt="">
+						</div>
+
+					</div>
+					<!-- 滑块与位移 -->
+					<div class="write_fu_bottom">
+						<div class="fangxiang_box">
+							<span class="upbtm"><img src="images/upbtm.png" alt=""></span>
+							<span class="leftbtm"><img src="images/leftbtm.png" alt=""></span>
+							<span class="downbtm"><img src="images/downbtm.png" alt=""></span>
+							<span class="rightbtm"><img src="images/rightbtm.png" alt=""></span>
+						</div>
+						<div class="large_small">
+							<input type="range"  min=1.5 max=2.5 step="0.01" value="2.0" id='slider'>
+						</div>
+						<div class="re-write_btm">
+							<button class="re_write button clear"  data-action="clear"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src='js/zepto.min.js'></script>
+	<script src='js/jquery-1.7.2.js'></script>
+	<script src='js/touch.min.js'></script>
+	<script src='js/index.js'></script>
+	<script src='js/signature_pads.js'></script>
+	<script src='js/app.js'></script>
+</body>
+</html>

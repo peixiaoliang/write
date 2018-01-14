@@ -37,7 +37,7 @@ function resizeCanvas() {
 }
 // On mobile devices it might make more sense to listen to orientation change,
 // rather than window resize events.
- window.onresize = resizeCanvas;
+window.onresize = resizeCanvas;
  resizeCanvas();
    
 function download(dataURL, filename) {
@@ -162,8 +162,10 @@ savePNGButton.addEventListener("tap", function (event) {
       var height=canvas.getAttribute("height")
       var content=canvas.getContext("2d");
       var data=content.getImageData(0,0,width,height);
-      canvas.width = canvas.offsetWidth * rat;
-      canvas.height = canvas.offsetHeight * rat;
+      var rats=4/rat;
+      console.log(rats)
+      canvas.width = canvas.offsetWidth * rats;
+      canvas.height = canvas.offsetHeight * rats;
       content.putImageData(data,0,0);
     }
 

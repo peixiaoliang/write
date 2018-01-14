@@ -32,19 +32,22 @@ img {
 html{
   width: 100%;
   height: 100%;
-  font-size: 62.5%;
+  font-size: 54.6468099%;
 }
 body{
   font-size: 1.4rem;
   width: 100%;
   height: 100%;
+  background: #AA0229;
 }
 .write_fu{
   width: 102.4rem;
-  height:67.15rem;
+  height:76.8rem;
+  margin:0 auto;
   background: url(../images/backgound.jpg) no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
+   position: relative;
 }
 /*福字左侧*/
 .write_fu_left{
@@ -55,24 +58,24 @@ body{
 }
 .xinchunqifu{
   width: 25.05rem;
-  height: 9.66155599rem;
+  height: 11.05rem;
   margin-left:6.4rem;
-  margin-top:3.80341797rem;
+  margin-top:4.35rem;
   background: url(../images/xinchunqifu.png) no-repeat;
   background-size: 100% 100%;
 
 }
 .qifu_shuoming{
-  width: 30rem;
-  height: 8.7434rem;
+  width: 29rem;
+  height: 7.8rem;
   text-align: center;
   color: #FFE9C2;
-  font-size: 1.8rem;
-  overflow: hidden;
-  margin-top:1.18585rem;
-  margin-left:4.2rem;
-  background: url(../images/shuoming.png) no-repeat;
+  font-size: 2.1rem;
+  background:url(../images/shuoming.png) no-repeat;
   background-size: 100% 100%;
+  overflow: hidden;
+  margin-top: 2.5rem;
+  margin-left:4.2rem;
 }
 /*.qifu_shuoming p span{
   color: #E8C473;
@@ -80,21 +83,23 @@ body{
 }*/
 .qifu_bg{
   width: 18rem;
-  height: 33.22492rem;
+  height: 38rem;
   margin-left: 8.6rem;
-  margin-top:0.87434rem;
+  margin-top:1rem;
+  position: relative;
+  z-index: 100;
 }
 .qifu_bg ul li{
   display: block;
-  margin-top: 0.87434rem;
+  margin-top: 1rem;
   width: 18rem;
-  height: 10.49208rem;
+  height: 12rem;
   position: relative;
   cursor: pointer;
 }
 .qifu_bg ul .active{
   width: 18rem;
-  height: 10.49208rem;
+  height: 12rem;
   border:0.5rem solid #E8C474;
    position: relative;
    z-index: 100;
@@ -103,82 +108,77 @@ body{
 .qifu_bg ul .active img{
   display: block;
   width: 17rem;
-  height: 9.49208rem;
+  height: 11rem;
 }
 .qifu_bg ul li img{
   display: block;
   width: 18rem;
-  height: 10.49208rem;
+  height: 12rem;
 }
 .qifu_btn{
   width: 13.1rem;
-  height: 6.251531rem;
+  height: 7.15rem;
   background: url(../images/submit_btm.png);
   background-size: 100% 100%;
   margin-left:12rem;
-  margin-top:1.74868rem;
+  margin-top:2rem;
+  position: relative;
+  z-index:100;
 
 }
 .write_fu_right{
-  position: relative;
   width: 63.9rem; 
   float: left;
   height: 100%;
 }
 .taiguhui{
   width: 17rem;
-  height: 10.579514rem;
+  height: 12.1rem;
   position: absolute;
-  left:23.6rem;
-  top:3.06019rem;
+  left:62.1rem;
+  top:3.5rem;
   background: url(../images/TKH_event_logo.png) no-repeat;
   background-size: 100% 100%;
   z-index: 99;
 }
 .write_fu_content .write_fu_box1{
-  width: 67.65rem;
-  height: 61.3725rem;
   position: absolute;
-  left:-3rem;
-  top:5.24604rem;
+  left:2.5rem;
+  top:-8rem;
   /*display: none;*/
 }
-.write_fu_content .write_fu_box2{
-  width: 65.01rem;
-  height: 56.99875rem;
+ .write_fu_content .write_fu_box2{
   position: absolute;
-  left: -3rem;
-  top: 6.12038rem;
+  left: 2.5rem;
+  top: -8rem;
   display: none;
 }
 .write_fu_content .write_fu_box3{
-  width: 64.44rem;
-  height: 56.4725em;
   position: absolute;
-  left:-3rem;
-  top:6.99472rem;
+  left:2.5rem;
+  top:-8rem;
   display: none;
-}
-.write_fu_content .write_fu_box:nth-child(1) img{
-  width: 67.65rem;
-  height: 61.3725rem;
+} 
+.write_fu_content .write_fu_box img{
+  width: 138.24rem;
+  height: 92.205rem;
   
 }
-.write_fu_content .write_fu_box:nth-child(2) img{
- width: 65.01rem;
-  height: 56.99875rem;
+/* .write_fu_content .write_fu_box:nth-child(2) img{
+ width: 138.24rem;
+  height: 92.205rem;
 }
 .write_fu_content .write_fu_box:nth-child(3) img{
-  width: 64.44rem;
-  height: 50.4725em;
+ width: 64.44rem;
+  height: 64.54rem;
   
-}
+} */
 .write_fu_bottom{
   position: absolute;
-  width: 50px;
+  width: 50rem;
   height: 10rem;
-  bottom:1.5rem;
-  left:10.5rem;
+  bottom:2.5rem;
+  left:54rem;
 }
 .write_fu_bottom .fangxiang_box{
   width: 45rem;
@@ -186,7 +186,8 @@ body{
   position: relative;
 }
 .write_fu_bottom .fangxiang_box span{
-  display: block;
+  width: 2rem;
+  height: 2rem;
 }
 .write_fu_bottom .fangxiang_box span:nth-child(odd) img{
   width: 5.3625rem;
@@ -201,6 +202,12 @@ body{
   position: absolute;
   top:1.2rem;
   left:-1.1rem;
+}
+.write_fu_bottom .fangxiang_box span:nth-child(3){
+  position: absolute;
+  z-index: 100;
+  top:3.9rem;
+  left:0rem;
   }
   .write_fu_bottom .fangxiang_box span:nth-child(4){
   position: absolute;
@@ -230,9 +237,11 @@ input[type=range]::-webkit-slider-thumb {
       -webkit-appearance: none;
       height: 1.5rem;
       width: 3rem;
-      margin-top: -5px; /*使滑块超出轨道部分的偏移量相等*/
+      margin-top: -0.5rem; /*使滑块超出轨道部分的偏移量相等*/
       background: url(../images/zoom_btm.png) no-repeat;
       background-size: 100% 100%;
+      outline: none;
+      border:none;
     }
 .re-write_btm .re_write{
   width: 6rem;
@@ -252,10 +261,10 @@ input[type=range]::-webkit-slider-thumb {
 }
 .canvas {
   position: absolute;
-  left:2.5rem; 
-  top:1.5rem;
-  width: 35rem;
-  height: 35rem;
+  left:48.5rem; 
+  top:18.5rem;
+  width: 43rem;
+  height: 43rem;
   border-radius: 120px;
   transform-origin:center;
   -moz-transform:rotate(-45deg);
@@ -265,20 +274,14 @@ input[type=range]::-webkit-slider-thumb {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
 }
 .canvas  canvas{
-  width: 85.33333rem;
-  height: 56.9166667rem;
-  margin:-2rem -9rem;
+  width: 85.3333rem;
+  height:64rem;
+  position: absolute;
+  top:0rem;
+  left:-17rem; 
   -moz-transform:rotate(45deg);
 -webkit-transform:rotate(45deg);
   
-}
-.huaban{
-  position: relative;
-  left:9.8rem;
-  top:14rem;
-  width: 38rem;
-  height: 38rem;
-  z-index: 10;
 }
 .secound_page{
   width: 100%;
@@ -289,19 +292,21 @@ input[type=range]::-webkit-slider-thumb {
   left:0;
   z-index: 1000;
   opacity: 0.8;
-
 }
 .canvas_cricle{
-  border-radius: 50%;
-  width: 43rem;
-  height: 43rem;
-  margin-left: -2.3rem;
-  top:-2rem;
+/*  border-radius: 50%;
+  width: 48rem;
+  height: 48rem;
+  position: absolute;
+  left:5.5rem; 
+  top:15.5rem;*/
 }
 .canvas_cricle2{
-  width: 36rem;
-  height: 36rem;
-  margin-top: 0.6rem;
+  /*width: 45rem;
+  height: 45rem;
+  position: absolute;
+  left:9.5rem; 
+  top:17.5rem;*/
 }
 .writename_box{
   width: 36.825rem;

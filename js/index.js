@@ -5,6 +5,7 @@ $(function(){
 		var index=$(this).index();
 		qifu_bg_btn.removeClass('active').eq(index).addClass('active')
 		write_fu_box.css("display","none").eq(index).css("display","block");
+		 resizeCanvas();
 	})
 	
 	var canvas=$('.canvas canvas');
@@ -12,21 +13,19 @@ $(function(){
 		var martop=canvas.css('marginTop');
     	var log=parseInt(martop);
 		log=log-1;
-		canvas.css('marginTop',log+'px')
 
 	})
 	touch.on($('.leftbtm'),'touchstart',function(){
 		var marleft=canvas.css('marginLeft');
     	var log=parseInt(marleft)
 		log=log-1;
-		canvas.css('marginLeft',log+'px')
+		canvas.css('marginLeft',log+'px');
 
 	})
 	touch.on($('.downbtm'),'touchstart',function(){
 		var marbottom=canvas.css('marginTop');
   		var log=parseInt(marbottom);
   		log=log+1;	
-		canvas.css('marginTop',log+'px')
 
 	})
 	touch.on($('.rightbtm'),'touchstart',function(){
@@ -35,7 +34,7 @@ $(function(){
 		log=log+1;
 		canvas.css('marginLeft',log+'px');
 	})
-	var timeOutEvent=0,cardId;
+	/*var timeOutEvent=0,cardId;
 　　$('.rightbtm').on({
 　　touchstart: function(e){
 　　　　var that = this;
@@ -123,6 +122,6 @@ $(function(){
 　　　　clearTimeout(timeOutEvent);
 　　　　// return false;
 　　}
-})
+})*/
 
 })

@@ -41,7 +41,7 @@ body{
 }
 .write_fu{
   width: 102.4rem;
-  height:76.8rem;
+  height:67.15rem;
   background: url(../images/backgound.jpg) no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
@@ -55,9 +55,9 @@ body{
 }
 .xinchunqifu{
   width: 25.05rem;
-  height: 11.05rem;
+  height: 9.66155599rem;
   margin-left:6.4rem;
-  margin-top:4.35rem;
+  margin-top:3.80341797rem;
   background: url(../images/xinchunqifu.png) no-repeat;
   background-size: 100% 100%;
 
@@ -67,7 +67,7 @@ body{
   height: 7.8rem;
   text-align: center;
   color: #FFE9C2;
-  font-size: 2.1rem;
+  font-size: 18rem;
   overflow: hidden;
   margin-top: 2.5rem;
   margin-left:4.2rem;

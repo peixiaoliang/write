@@ -124,5 +124,14 @@ $(function(){
 　　　　// return false;
 　　}
 })
+	///window.open(document.location, '窗体名称', 'fullscreen');//这句打开并去掉所有栏，
+//连系统任务栏都盖住
+//window.open(document.location, '窗体名称', '');//只是打开一个新窗口   
+//window.open(document.location,'窗体名称','fullscreen,scrollbars');//带滚动条   
+window.open(document.location,'maxwindow','toolbar=no,location=no,directories=no,menubar=no,scrollbars=yes,resizable=no,status=no'); 
+//最简单是这样window.open(document.location,"_blank","a");
+//这句可以打开新的窗口并且可以调节各个栏的可见性
+//toolbar工具栏,location地址栏,directories链接栏,menubar菜单栏,scrollbars滚动条,resizable可否改变大小,status状态栏
+opener=null;//没有这句，关闭时有提示,ie5.5以上有效
 
 })

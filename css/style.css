@@ -63,36 +63,38 @@ body{
 
 }
 .qifu_shuoming{
-  width: 29rem;
-  height: 7.8rem;
+  width: 30rem;
+  height: 8.7434rem;
   text-align: center;
   color: #FFE9C2;
   font-size: 1.8rem;
   overflow: hidden;
-  margin-top: 2.5rem;
+  margin-top:1.18585rem;
   margin-left:4.2rem;
+  background: url(../images/shuoming.png) no-repeat;
+  background-size: 100% 100%;
 }
-.qifu_shuoming p span{
+/*.qifu_shuoming p span{
   color: #E8C473;
   font-weight:bold;
-}
+}*/
 .qifu_bg{
   width: 18rem;
-  height: 38rem;
+  height: 33.22492rem;
   margin-left: 8.6rem;
-  margin-top:1rem;
+  margin-top:0.87434rem;
 }
 .qifu_bg ul li{
   display: block;
-  margin-top: 1rem;
+  margin-top: 0.87434rem;
   width: 18rem;
-  height: 12rem;
+  height: 10.49208rem;
   position: relative;
   cursor: pointer;
 }
 .qifu_bg ul .active{
   width: 18rem;
-  height: 12rem;
+  height: 10.49208rem;
   border:0.5rem solid #E8C474;
    position: relative;
    z-index: 100;
@@ -101,20 +103,20 @@ body{
 .qifu_bg ul .active img{
   display: block;
   width: 17rem;
-  height: 11rem;
+  height: 9.49208rem;
 }
 .qifu_bg ul li img{
   display: block;
   width: 18rem;
-  height: 12rem;
+  height: 10.49208rem;
 }
 .qifu_btn{
   width: 13.1rem;
-  height: 7.15rem;
+  height: 6.251531rem;
   background: url(../images/submit_btm.png);
   background-size: 100% 100%;
   margin-left:12rem;
-  margin-top:2rem;
+  margin-top:1.74868rem;
 
 }
 .write_fu_right{
@@ -125,50 +127,50 @@ body{
 }
 .taiguhui{
   width: 17rem;
-  height: 12.1rem;
+  height: 10.579514rem;
   position: absolute;
   left:23.6rem;
-  top:3.5rem;
+  top:3.06019rem;
   background: url(../images/TKH_event_logo.png) no-repeat;
   background-size: 100% 100%;
   z-index: 99;
 }
 .write_fu_content .write_fu_box1{
   width: 67.65rem;
-  height: 70.14rem;
+  height: 61.3725rem;
   position: absolute;
   left:-3rem;
-  top:6rem;
+  top:5.24604rem;
   /*display: none;*/
 }
 .write_fu_content .write_fu_box2{
   width: 65.01rem;
-  height: 65.13rem;
+  height: 56.99875rem;
   position: absolute;
   left: -3rem;
-  top: 7rem;
+  top: 6.12038rem;
   display: none;
 }
 .write_fu_content .write_fu_box3{
   width: 64.44rem;
-  height: 64.54rem;
+  height: 56.4725em;
   position: absolute;
   left:-3rem;
-  top:8rem;
+  top:6.99472rem;
   display: none;
 }
 .write_fu_content .write_fu_box:nth-child(1) img{
   width: 67.65rem;
-  height: 70.14rem;
+  height: 61.3725rem;
   
 }
 .write_fu_content .write_fu_box:nth-child(2) img{
-  width: 65.01rem;
-  height: 65.13rem;
+ width: 65.01rem;
+  height: 56.99875rem;
 }
 .write_fu_content .write_fu_box:nth-child(3) img{
- width: 64.44rem;
-  height: 64.54rem;
+  width: 64.44rem;
+  height: 50.4725em;
   
 }
 .write_fu_bottom{
